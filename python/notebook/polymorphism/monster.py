@@ -1,4 +1,12 @@
+
+# coding: utf-8
+
+# In[1]:
+
 from character import Character
+
+
+# In[2]:
 
 class IceMonster(Character):
     def get_damage(self, attack_power, attack_kind):
@@ -19,3 +27,9 @@ class FireMonster(Character):
             
     def __str__(self):
         return "Fire Monster's HP : {}".format(self.hp)
+
+
+# In[ ]:
+
+
+
